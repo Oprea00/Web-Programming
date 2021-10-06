@@ -1,0 +1,24 @@
+﻿table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 15px;
+    color:orangered;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+        opacity: 1.0;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 2px gray ;
+}

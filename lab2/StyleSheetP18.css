@@ -1,0 +1,26 @@
+﻿#rainbow {
+    height: 300px;
+    background-image: linear-gradient(35deg,red,orange, yellow, green, blue, indigo,violet);
+    text-align:center;
+    color:antiquewhite;
+    font-size:large;
+}
+
+.mainDiv{
+    
+    clear:left;
+}
+
+.r1 {
+    background: linear-gradient(78deg, red 5%, transparent 7%), linear-gradient(69deg, orange 10%, transparent 12%), linear-gradient(60deg, yellow 15%, transparent 17%), linear-gradient(51deg, green 20%, transparent 22%);
+    width: 40%;
+    height: 300px;
+   float:left;
+}
+
+.r2 {
+    background-image: linear-gradient(43deg, blue 25%, transparent 27%), linear-gradient(35deg, indigo 30%, transparent 32%), linear-gradient(28deg, violet 35%, transparent 37%);
+    width: 60%;
+    height: 300px;
+    
+}

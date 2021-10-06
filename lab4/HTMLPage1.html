@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Lab 5 Javascript</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1>Real Madrid Team</h1>
+    <p>Click the headers to sort the table</p>
+    <p>The first time you click, the sorting direction is ascending</p>
+    <p>Click again, and the sorting direction will be descending</p>
+    <table align="center" id="table">
+        <tr>
+            <th onclick="sortTable(0)">Name</th>
+            <th onclick="sortTable(1)">Position</th>
+            <th onclick="sortTable(2)">Age</th>
+            <th onclick="sortTable(3)">Nationality</th>
+        </tr>
+        <tr>
+            <td>Sergio Ramos</td><td>Centre-Back</td><td>34</td><td>Spanish</td>
+        </tr>
+        <tr>
+            <td>Eden Hazard</td><td>Left Winger</td><td>29</td><td>Belgian</td>
+        </tr>
+        <tr>
+            <td>Gareth Bale</td><td>Right Winger</td><td>30</td><td>Welsh</td>
+        </tr>
+        <tr>
+            <td>Karim Benzema</td><td>Centre-Forward</td><td>32</td><td>French</td>
+        </tr>
+        <tr>
+            <td>Toni Kroos</td><td>Central Midfield</td><td>30</td><td>German</td>
+        </tr>
+        <tr>
+            <td>Isco</td><td>Attacking Midfield</td><td>27</td><td>Spanish</td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
